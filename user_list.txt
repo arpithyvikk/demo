@@ -1,0 +1,8 @@
+Name: Arpit Dudhrejiya
+E-mail: arpit@gmail.com
+Mobile No: 9874563210
+Gender: Male
+Birth Date: 2007-10-29
+City: Bhavnagar
+Skills: HTML,CSS,PHP,jQuery
+
