@@ -1,4 +1,4 @@
-// Admin side*
+// Admin side *******
 
 1) http://localhost/f6/admin/bookings 
     => 'first alert message popup with some ajax datatable and than page load (screen-shot)'
@@ -25,7 +25,6 @@ DATE URL :
         6. http://localhost/f6/admin/bookings/4/edit (Pickup Date & Time, Dropoff Date & Time)
         7. http://localhost/f6/admin/booking-quotation/create (Pickup Date & Time, Dropoff Date & Time)
         8. http://localhost/f6/admin/reports/vendors (from, to)
-        9. 
 
 PRINT BUTTON :
 
@@ -42,3 +41,51 @@ PRINT BUTTON :
         11. http://localhost/f6/admin/reports/drivers
         12. http://localhost/f6/admin/reports/vendors
         13. http://localhost/f6/admin/reports/yearly
+
+
+// Frontend HTML side ******
+
+1) http://localhost/f6/booking-history/9
+    => 'footer not set properlly when booking history is null or empty'
+
+
+// Android API ********
+
+1) /api/update-destination - POST update destination
+    => 'destination update only on completed ride not update pending rides'
+
+2) /api/user-single-ride - POST user's sigle-ride requests
+    => 'only get details who ride is completed same as above'
+
+3) /api/cancel-ride-request - POST cancle ride requests
+    => 'competed ride also cancled'
+
+4)  /api/reject-ride-request - POST reject ride requests
+    => 'don't understand'
+
+5) /api/get-reviews - POST driver reviews
+    => 'not submited on completed ride'
+    => 'submited review on pending ride'
+
+6) /api/start-ride - POST start ride
+    => 'start ride only on completed ride'
+    => 'not start in pending ride'
+
+7) /api/destination-reached - POST destination reached
+    => 'not submited on peding ride'
+    => 'submited on completed ride'
+
+8) /api/accept-ride-request -  POST accept ride requests
+    => 'change field name user_id to driver_id'
+    => 'driver also accept completed ride'
+
+9) /api/single-ride-info - POST single ride info 
+    => 'ride info not fetched in my case'
+
+10) /api/update-fcm-token - POST update fcm tokken
+    => 'success meassage: 0 '
+
+
+// Frontend API *********
+
+testing pending
