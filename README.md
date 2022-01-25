@@ -16,6 +16,7 @@
     => click on print button than page is not redirect at same page, it show print page in full screen make it redirect and page is not redirect than open in new tab (change it in all pages wherever print button is exist)
 
 DATE URL : 
+
         1. http://localhost/f6/admin/drivers/create (Issue Date, Expiration Date, Join Date, Leave Date)
         2. http://localhost/f6/admin/vehicle-reviews-create (Date & Time Outgoing, Date & Time Incoming)
         3. http://localhost/f6/admin/income (from, to)
@@ -27,6 +28,7 @@ DATE URL :
         9. 
 
 PRINT BUTTON :
+
         1. http://localhost/f6/admin/bookings (already open in new page)
         2. http://localhost/f6/admin/reports/income
         3. http://localhost/f6/admin/reports/expense
